@@ -1,0 +1,11 @@
+[package]
+name = "crux_logger"
+version = "0.1.0"
+authors = ["Ryo Hashiguchi <ryo12redstone@gmail.com>"]
+
+[dependencies]
+crux = { git = "https://github.com/ryo33/crux.git" }
+log = "*"
+
+[dev-dependencies]
+env_logger = "*"
